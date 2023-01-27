@@ -12,3 +12,5 @@ let py = 'python'
 let jr ='jargon'
 console.log(py.includes('on'));
 console.log(jr.includes('on'));
+//Generate a random number between 0 and 100 inclusively.
+console.log(Math.random())
