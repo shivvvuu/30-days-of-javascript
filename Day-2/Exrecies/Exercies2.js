@@ -9,4 +9,6 @@ console.log(parseFloat('9.8') == 10);
 console.log(Math.ceil(parseFloat('9.8')) == 10)
 //Check if 'on' is found in both python and jargon
 let py = 'python'
+let jr ='jargon'
 console.log(py.includes('on'));
+console.log(jr.includes('on'));
