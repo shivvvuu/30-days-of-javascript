@@ -72,3 +72,63 @@ Math.sin(60)
 
 Math.cos(0)
 Math.cos(60)
+
+//Template Literals (Template Strings)
+
+console.log(`The sum of 2 and 3 is 5`)              // statically writing the data
+let a = 2
+let b = 3
+console.log(`The sum of ${a} and ${b} is ${a + b}`) // injecting the data dynamically
+
+//String Method
+
+//toUpperCase()
+
+let string = 'JavaScript'
+
+console.log(string.toUpperCase())     // JAVASCRIPT
+
+let firstName = 'Asabeneh'
+
+console.log(firstName.toUpperCase())  // ASABENEH
+
+let country = 'Finland'
+
+console.log(country.toUpperCase())    // FINLAND
+
+
+
+
+//toLowerCase()
+
+console.log(string.toLowerCase())     // javascript
+
+
+console.log(firstName.toLowerCase())  // asabeneh
+
+
+
+console.log(country.toLowerCase())   // finland
+
+//substr()
+
+let string1 = 'JavaScript'
+console.log(string1.substr(4,6))    // Script
+
+let country1 = 'Finland'
+console.log(country1.substr(3, 4))   // land
+
+//substring()
+let string2 = 'JavaScript'
+
+console.log(string2.substring(0,4))     // Java
+console.log(string2.substring(4,10))    // Script
+console.log(string2.substring(4))       // Script
+
+let country2 = 'Finland'
+
+console.log(country2.substring(0, 3))   // Fin
+console.log(country2.substring(3, 7))   // land
+console.log(country2.substring(3))      // land
+
+
