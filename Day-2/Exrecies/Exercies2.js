@@ -13,4 +13,16 @@ let jr ='jargon'
 console.log(py.includes('on'));
 console.log(jr.includes('on'));
 //Generate a random number between 0 and 100 inclusively.
-console.log(Math.random())
+console.log(Math.round(Math.random()*101));
+//Generate a random number between 50 and 100 inclusively.
+console.log(Math.floor(Math.random()*51)+50);
+//Generate a random number between 0 and 255 inclusively.
+console.log(Math.floor(Math.random()*256));
+//Access the 'JavaScript' string characters using a random number.
+let java='JavaScript'
+console.log(java[Math.floor(Math.random()*10)]);
+//Use console.log() and escape characters to print the following pattern.
+console.log('1 1 1 1 1\n2 1 2 4 8\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125')
+//Use substr to slice out the phrase because because because from the following sentence:'You cannot end a sentence with because because because is a conjunction'
+let because = 'You cannot end a sentence with because because because is a conjunction'
+console.log(because.substr(31, 23));
